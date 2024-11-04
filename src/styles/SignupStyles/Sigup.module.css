@@ -51,7 +51,7 @@ line-height: 28.73px;
   background-color: transparent;
   border-radius: 50px;
   border: 3px solid var(--input-border-color);
-  opacity: 0px;
+  
 }
 .signupForm input::placeholder{
     color: var(--input-border-color);
