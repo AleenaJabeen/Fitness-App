@@ -24,7 +24,9 @@ function Signup() {
             <div className={styles.google}><img src={google} alt="Google icon" /></div>
             <div className={styles.facebook}><img src={fb} alt="Facebook icon" /></div>
         </div>
-        <div className={styles.account}>Already Have An Account?<span>Login</span></div>
+        <div className={styles.account}>
+              Already Have An Account? <Link to={"/login"} className={styles.span}>Sign Up</Link>
+            </div>
         </form>
         
         </div>
