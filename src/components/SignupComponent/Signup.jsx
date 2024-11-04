@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 function Signup() {
   return (
     <>
+    
       <section className={styles.signup}>
         <div className={styles.wrapper}>
         <Link to={"/home"} className={styles.homeBtn}><img src={crossIcon} alt="Cancel Signup icon" /></Link>
