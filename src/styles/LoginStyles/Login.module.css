@@ -103,8 +103,7 @@
   }
   .account span{
   font-weight: 700;
-  
-  
+text-decoration: none;
   }
   @media (min-width:900px){
       .loginForm{
