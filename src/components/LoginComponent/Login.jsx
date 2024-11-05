@@ -21,7 +21,7 @@ function Login() {
             </Link>
 
             <div className={styles.account}>
-              Don't Have An Account? <Link to={"/signup"} className={styles.span}>Sign Up</Link>
+              Don't Have An Account? <Link to={"/"} className={styles.span}>SignUp</Link>
             </div>
           </form>
         </div>

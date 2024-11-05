@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Footer from '../LayoutComponents/Footer';
 
 function Home() {
   return (
-    <div>
-      hello
-    </div>
+    <>
+      <Footer/>
+    </>
   )
 }
 

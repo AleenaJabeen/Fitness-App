@@ -1,0 +1,136 @@
+.footer {
+  background: var(--linear-gradient-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.fitnessObjective {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--input-border-color);
+}
+.gymName {
+  align-self: flex-start;
+}
+.fitnessObjective .gymName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.fitnessObjective .gymName .circle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+}
+.gymName h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 42.99px;
+  text-align: justify;
+}
+.fitnessObjective p {
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.68px;
+  text-align: justify;
+}
+.fitnessObjective p span {
+  color: var(--border-color);
+}
+.socialContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.company {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--input-border-color);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20.68px;
+}
+.sections li {
+  list-style: none;
+  padding: 1rem 0 1rem 0;
+}
+.li {
+  text-decoration: none;
+  color: var(--input-border-color);
+}
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: var(--input-border-color);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20.68px;
+  gap: 1rem;
+}
+.contacts h4 {
+  color: var(--border-color);
+}
+.contactSection li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  text-align: justify;
+}
+.contactSection li:first-child,
+li:last-child {
+  padding-left: 0.5rem;
+}
+.sideImage img {
+  max-width: 300px;
+}
+.copyRight {
+  max-width: 1440px;
+  height: 67px;
+  padding: 21px 0px 20px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(155, 154, 154, 1);
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .gymName h3 {
+    font-size: 30px;
+  }
+  .sideImage img {
+   max-width: 300px;
+   width: 300px;
+  }
+}
