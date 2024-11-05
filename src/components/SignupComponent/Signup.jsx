@@ -19,13 +19,13 @@ function Signup() {
             <input type="email" placeholder='Email' />
             <input type="password" placeholder='Password' />
             <input type="password"  placeholder='Confirm Password'/>
-<Link to={"/login"} className={styles.signupBtn}>Sign Up <img src={arrow} alt="arrow" /></Link>
+<Link to={"/home"} className={styles.signupBtn}>Sign Up <img src={arrow} alt="arrow" /></Link>
 <div className={styles.socialIcons}>
             <div className={styles.google}><img src={google} alt="Google icon" /></div>
             <div className={styles.facebook}><img src={fb} alt="Facebook icon" /></div>
         </div>
         <div className={styles.account}>
-              Already Have An Account? <Link to={"/login"} className={styles.span}>Sign Up</Link>
+              Already Have An Account? <Link to={"/login"} className={styles.span}>Login</Link>
             </div>
         </form>
         

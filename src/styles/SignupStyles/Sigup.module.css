@@ -123,8 +123,8 @@ align-self: flex-end;
 }
 .account .span{
 font-weight: 700;
-
-
+text-decoration: none;
+color: var(--input-border-color);
 }
 @media (min-width:900px){
     .signupForm{
