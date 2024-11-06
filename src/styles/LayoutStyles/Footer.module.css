@@ -118,7 +118,26 @@ li:last-child {
   text-align: center;
   color: rgba(155, 154, 154, 1);
 }
+@media (min-width:768px) and (max-width:992px) {
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+flex-wrap: wrap;
+gap: 2rem;
+  }
+  .contacts,.sideImage{
+    flex:1 1 47%;
+  }
+  .company{
+    flex: 1 1 17%;
+  }
+  .fitnessObjective{
+    flex:1 1 43%;
+  }
 
+}
 @media (min-width: 992px) {
   .wrapper {
     display: flex;
