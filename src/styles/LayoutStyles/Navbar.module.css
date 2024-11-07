@@ -1,5 +1,5 @@
 .navbar {
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 3rem;
   max-width: 1440px;
   width: 100vw;
   position: fixed;
@@ -108,6 +108,7 @@
   justify-content: flex-end;
   background-color: transparent;
   backdrop-filter: blur(0);
+  padding: 2.5rem 1rem;
  }
   .navbar ul {
     width: 100vw;
