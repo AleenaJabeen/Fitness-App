@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from '../../styles/LayoutStyles/Navbar.module.css';
-import login from '../../assets/Layoutassets/user-profile-02.png';
+import login from '../../assets/Layoutassets/userprofile.png';
 
 function Navbar() {
   return (
