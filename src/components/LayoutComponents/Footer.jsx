@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../../styles/LayoutStyles/Footer.module.css';
-import sideImage from '../../assets/LayoutAssets/image-removebg-preview-2024-10-17T184228.3521.png';
-import googleIcon from '../../assets/LayoutAssets/Social Icons (2).png';
-import insta from '../../assets/LayoutAssets/Social Icons (1).png';
-import fb from '../../assets/LayoutAssets/Social Icons.png';
-import telephoneIcon from '../../assets/LayoutAssets/image-removebg-preview - 2024-10-20T192003.787 1.png'
-import mapIcon from '../../assets/LayoutAssets/image-removebg-preview-2024-10-20T192158.0251.png';
-import youtube from '../../assets/LayoutAssets/Social Icons (3).png'
+import gym from '../../assets/Layoutassets/image-removebg-preview-2024-10-17T184228.3521.png';
+import googleIcon from '../../assets/Layoutassets/Social Icons (2).png';
+import insta from '../../assets/Layoutassets/Social Icons (1).png';
+import fb from '../../assets/Layoutassets/Social Icons.png';
+import telephoneIcon from '../../assets/Layoutassets/telephoneIcon.png'
+import mapIcon from '../../assets/Layoutassets/image-removebg-preview-2024-10-20T192158.0251.png';
+import youtube from '../../assets/Layoutassets/Social Icons (3).png'
 
 function Footer() {
   return (
@@ -47,7 +47,7 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.sideImage}>
-          <img src={sideImage} alt="Exercising" />
+          <img src={gym} alt="Exercising" />
         </div>
         
         </div>
