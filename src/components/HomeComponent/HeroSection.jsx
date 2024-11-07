@@ -1,16 +1,14 @@
 import React from "react";
 import styles from "../../styles/HomeStyles/HeroSection.module.css";
-import imges from '../../assets/HomeAssets/image1.png';
 import arrow from '../../assets/HomeAssets/Polygon 1.png'
 
 function HeroSection() {
   return (
     <>
-      <section className={styles.heroSection} style={{ backgroundImage:`url(${imges})`}}>
+      <section className={styles.heroSection}>
         <h2>
           Welcome to <br />
           <span>Fitness Training</span>
-
         </h2>
         <h3> Transform Your Fitness Journey with Expert Guidance!.</h3>
         <p>

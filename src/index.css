@@ -10,6 +10,10 @@
   --input-border-color: rgba(255, 255, 255, 1);
   --secondary-border-color: rgba(217, 217, 217, 0);
   --linear-gradient-color: linear-gradient(187.74deg, #800080 7.1%, #000000 92.9%);
+ --linear-background-color:linear-gradient(179.6deg, #800080 0.34%, #000000 99.66%);
+ --linear-border-color: linear-gradient(319.83deg, #800080 0.16%, #800080 44.52%, #000000 99.84%);
+ 
+ 
 
 }
 
