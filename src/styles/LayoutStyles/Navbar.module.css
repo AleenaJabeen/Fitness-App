@@ -1,5 +1,5 @@
 .navbar {
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 2rem;
   max-width: 1440px;
   width: 100vw;
   position: fixed;
@@ -91,7 +91,7 @@
 }
 
 .loginBtn{
-  padding-right: 1rem;
+  padding-right: 0rem;
 }
 
 
@@ -123,8 +123,8 @@
   .menuBtn {
     display: none; 
   }
-  .loginBtnA{
-    display:block
+  .loginBtn{
+    padding-right: 1rem;
   }
   .menuItems {
     display: flex;
