@@ -10,26 +10,29 @@ function Navbar() {
   const toggleMenu = () => {
     setMenuOpen((prevState) => !prevState);
   };
+
   return (
     <nav className={styles.navbar}>
-      <div className={`${styles.openMenuBtn}${isMenuOpen ? styles.hide : ""}`} >
+      <div
+        className={`${styles.openMenuBtn}${isMenuOpen ? styles.hide : ""}`}
+      >
         <HiOutlineMenuAlt2 style={{ fontSize: "2rem" }} onClick={toggleMenu} />
       </div>
-    
-        <div
-          className={`${styles.menuItems} ${isMenuOpen ? styles.showMenu : ""}`}
-          onClick={toggleMenu}
-        >
-            <ul>
+
+      <div
+        className={`${styles.menuItems} ${isMenuOpen ? styles.showMenu : ""}`}
+        onClick={toggleMenu}
+      >
+        <ul>
           <li className={styles.closeMenuBtn} onClick={toggleMenu}>
-            <HiOutlineX style={{ fontSize: "2rem" }} onClick={toggleMenu}/>
+            <HiOutlineX style={{ fontSize: "2rem" }} onClick={toggleMenu} />
           </li>
           <li>
             <NavLink
               to="/home"
-              exact
-              className={styles.li}
-              activeClassName={styles.active}
+              className={({ isActive }) =>
+                isActive ? `${styles.li} ${styles.active}` : styles.li
+              }
             >
               Home
             </NavLink>
@@ -37,8 +40,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/about"
-              className={styles.li}
-              activeClassName={styles.active}
+              className={({ isActive }) =>
+                isActive ? `${styles.li} ${styles.active}` : styles.li
+              }
             >
               About Us
             </NavLink>
@@ -46,8 +50,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/blogs"
-              className={styles.li}
-              activeClassName={styles.active}
+              className={({ isActive }) =>
+                isActive ? `${styles.li} ${styles.active}` : styles.li
+              }
             >
               Blogs
             </NavLink>
@@ -55,8 +60,9 @@ function Navbar() {
           <li>
             <NavLink
               to="/faqs"
-              className={styles.li}
-              activeClassName={styles.active}
+              className={({ isActive }) =>
+                isActive ? `${styles.li} ${styles.active}` : styles.li
+              }
             >
               FAQs
             </NavLink>
@@ -64,19 +70,22 @@ function Navbar() {
           <li>
             <NavLink
               to="/contact"
-              className={styles.li}
-              activeClassName={styles.active}
+              className={({ isActive }) =>
+                isActive ? `${styles.li} ${styles.active}` : styles.li
+              }
             >
               Contact Us
             </NavLink>
           </li>
-          </ul>
-        </div>
+        </ul>
+      </div>
       <div className={styles.loginBtn}>
         <p>
           <NavLink
             to="/login"
-            activeClassName={styles.active}
+            className={({ isActive }) =>
+              isActive ? `${styles.li} ${styles.active}` : styles.li
+            }
           >
             <img src={login} alt="Login Icon" />
           </NavLink>
