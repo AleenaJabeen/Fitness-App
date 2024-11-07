@@ -1,21 +1,32 @@
-import React from 'react'
+import React from "react";
+import styles from "../../styles/HomeStyles/HeroSection.module.css";
+import imges from '../../assets/HomeAssets/image1.png';
+import arrow from '../../assets/HomeAssets/Polygon 1.png'
 
 function HeroSection() {
   return (
     <>
-    <section className="heroSection">
+      <section className={styles.heroSection} style={{ backgroundImage:`url(${imges})`}}>
         <h2>
-            Welcome to <br /><span>Fitness Training</span><br />
-            Transform Your Fitness Journey with Expert Guidance!.
+          Welcome to <br />
+          <span>Fitness Training</span>
+
         </h2>
-        <p>At Fitness Training, we offer personalized training programs designed
-to help you achieve your fitness goals. From strength training to
-wellness coaching, we’re here to support you every step of the way.</p>
-<button>Schedule Your Free Session Today <div className="icon"><img src="" alt="" /></div></button>
-    </section>
-      
+        <h3> Transform Your Fitness Journey with Expert Guidance!.</h3>
+        <p>
+          At Fitness Training, we offer personalized training programs designed
+          to help you achieve your fitness goals. From strength training to
+          wellness coaching, we’re here to support you every step of the way.
+        </p>
+        <button className={styles.scheduleBtn}>
+          Schedule Your Free Session Today
+          <div className={styles.icon}>
+            <img src={arrow} alt="Arrow icon" />
+          </div>
+        </button>
+      </section>
     </>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;

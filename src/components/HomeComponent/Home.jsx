@@ -1,10 +1,12 @@
 import React from 'react';
-import Footer from '../LayoutComponents/Footer';
+import HeroSection from './HeroSection';
+
 
 function Home() {
   return (
     <>
-      <Footer/>
+   <HeroSection/>
+  
     </>
   )
 }

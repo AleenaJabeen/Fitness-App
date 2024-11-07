@@ -1,0 +1,95 @@
+
+.heroSection {
+  background-color: black;
+  background-repeat: no-repeat;
+  opacity: 90%;
+  color: var(--input-border-color);
+  padding: 16rem 3rem 12rem;
+background-size: cover;
+}
+.heroSection h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+.heroSection h2 span {
+  font-family: "Teko", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.heroSection h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height:3rem;
+  text-align: left;
+}
+.heroSection p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 28.73px;
+  text-align: justify;
+}
+.scheduleBtn{
+    max-width: 52rem;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    font-family: Ubuntu;
+font-size: 1rem;
+font-weight: 300;
+line-height: 1.5rem;
+color: var(--input-border-color);
+background-color: transparent;
+border-radius: 50px;
+border:3px solid var(--input-border-color);
+margin-top: 4rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background-color: var(--border-color);
+    border-radius:50% ;
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .heroSection{
+    background-size: cover;
+    padding: 16rem 16rem 14rem 8rem;
+    
+        }
+}
+@media (min-width:1024px){
+
+    .heroSection{
+background-size: cover;
+padding: 16rem 30rem 14rem 8rem;
+
+    }
+    .heroSection h2{
+font-size: 3rem;
+line-height:5rem;
+    }
+    .heroSection h2 span{
+            font-size: 6rem;
+
+    }
+    .heroSection h3{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .heroSection p{
+      line-height: 2.5rem;
+    }
+    .scheduleBtn{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
