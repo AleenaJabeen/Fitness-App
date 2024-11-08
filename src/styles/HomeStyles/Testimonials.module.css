@@ -29,7 +29,7 @@ padding-top: 1rem;
 .testimonials{
     margin-top: -10rem;
     width: 100%;
-    padding:2rem 1rem;
+    padding:2rem .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +41,14 @@ height: 571px;
 border-radius: 40px;
     background-color: var(--background-color);
     color:var(--input-border-color) ;
-    padding: 2rem;
+    padding: 2rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 .midImg{
     max-width:276px;
