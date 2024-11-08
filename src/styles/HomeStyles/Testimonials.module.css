@@ -52,6 +52,7 @@ border-radius: 40px;
 }
 .midImg{
     max-width:276px;
+    width: 70%;
     max-height:276px;
     border-radius: 50%;
     position: absolute;
