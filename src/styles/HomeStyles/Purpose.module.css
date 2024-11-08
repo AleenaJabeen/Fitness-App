@@ -1,0 +1,134 @@
+.purposeSection{
+    background-color:var(--background-color);
+    color: var(--input-border-color);
+    padding: 3rem 0;
+    max-width: 1440px;
+}
+.purposeSection h2{
+    font-family: "Teko",sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 6rem;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 2rem;
+    
+}
+.purposeDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1rem;
+    gap: 1.5rem;
+}
+.purposeDetail img{
+object-fit: cover;
+width: 90vw;
+height: 100%;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-direction: column;
+    padding:0 1rem 1rem 1rem;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+}
+.detail p{
+    margin-bottom: 1.5rem; 
+    font-weight: 300;
+}
+.detail p:nth-child(2){
+    font-weight: 500;  
+}
+.detail table{
+    width:100%;
+    font-family: "Teko";
+font-size: 1.15rem;
+font-weight: 700;
+line-height: 2.15rem;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--linear-text-color);
+padding-top: 1rem;
+}
+.detail table td{
+    padding: 0rem 0;
+}
+@media(min-width:576px)and (max-width:768){
+    .purposeSection{
+        padding: 3rem 0;
+    }
+    .detail table{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        
+        } 
+}
+@media(min-width:768px)and (max-width:992px){
+    .purposeSection{
+        padding: 3rem 1rem;
+}
+.purposeSection h2{
+    font-size: 5.5rem;
+    line-height: 7rem;
+    
+}
+.detail p{
+    font-size: 1.85rem;
+    line-height: 2.25rem;  
+    margin-bottom: 1rem;
+} 
+.detail table{
+font-size: 2.25rem;
+line-height: 3.25rem;
+}
+
+}
+@media (min-width:992px){
+    .purposeSection{
+        padding: 4rem 2rem;
+}
+    .purposeDetail{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: flex-start;
+        align-items: stretch;
+    }
+    .purposeDetail img{
+        width: 45vw;
+        max-width: 669px;
+        object-fit: cover;
+        height: auto;
+        max-height: 100%;
+        }
+    .purposeSection h2{
+        font-size: 6.1rem;
+        line-height: 8rem;
+        
+    }
+    .detail{
+        flex: 1;
+    }
+    .detail p{
+        font-size: 1.65rem;
+        line-height: 2.5rem;  
+        margin-bottom: 1.25rem;
+    } 
+    .detail table{
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-top: 1.5rem;
+    }
+    .detail tr td{
+        padding-bottom: 1rem;
+    }
+
+}

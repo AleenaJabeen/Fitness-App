@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styles from '../../styles/HomeStyles/Purpose.module.css';
+import purpose from '../../assets/HomeAssets/purpose.png';
 
 function Purpose() {
   return (
     <>
-    <section className="purpose">
+    <section className={styles.purposeSection}>
         <h2>Purpose</h2>
-        <div className="purposeDetail">
-            <img src="" alt="" />
-            <div className="detail">
+        <div className={styles.purposeDetail}>
+            <img src={purpose} alt="Purpose Side Picture" />
+            <div className={styles.detail}>
                 <p>It is designed to empower users in achieving
 their health and fitness goals through
 comprehensive tracking and personalized guidance.</p>
@@ -20,13 +22,13 @@ the support and motivation they need to achieve
 their fitness goals</p>
 <p>The Fitness Website is designed for a wide range of users</p>
 <table>
-    <tr>
-        <td>Fitness Enthusiasts</td>
-        <td>Beginners</td>
+    <tr VALIGN="TOP">
+        <td colSpan={2}>Fitness Enthusiasts</td>
+        <td colSpan={2}>Beginners</td>
     </tr>
-    <tr>
-        <td>Busy Professionals</td>
-        <td>Individuals</td>
+    <tr VALIGN="TOP">
+        <td colSpan={2}>Busy Professionals</td>
+        <td colSpan={2}>Individuals</td>
     </tr>
 </table>
             </div>
