@@ -3,6 +3,7 @@ import HeroSection from './HeroSection';
 import KeyFeatures from './KeyFeatures';
 import Purpose from './Purpose';
 import Testimonials from './Testimonials';
+import WebsiteWorking from './WebsiteWorking';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
    <KeyFeatures/>
   <Purpose/>
   <Testimonials/>
+  <WebsiteWorking/>
     </>
   )
 }
