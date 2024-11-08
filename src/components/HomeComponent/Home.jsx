@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
    <HeroSection/>
-   {/* <KeyFeatures/> */}
+   <KeyFeatures/>
   <Purpose/>
   <Testimonials/>
     </>

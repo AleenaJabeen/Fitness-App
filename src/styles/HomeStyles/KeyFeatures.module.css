@@ -14,12 +14,15 @@ text-align: center;
     justify-content: space-between;
     align-items: center;
     overflow-x: scroll;
-    gap: 1rem;
+    gap: 3rem;
+    padding: 2rem;
+    scrollbar-width: none;
 }
 /* feature card styling */
 .featureCard{
-    width: 307px;
-    padding: 1.5rem 1rem;
+    min-width: 307px;
+    height: 333px;
+    padding: 2rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +34,9 @@ text-align: center;
     border: 3px solid;
 }
 .featureCard h3{
-font-size: 1.25rem;
+font-size: 1rem;
 font-weight: 500;
-line-height: 1.5rem;
+line-height: 1.25rem;
 text-align: left;
 color: var(--input-border-color);
 align-self: flex-start;
@@ -41,37 +44,15 @@ align-self: flex-start;
 .featureCard button{
 font-size: 1rem;
 font-weight: 300;
-
 align-self: flex-end;
 color: var(--input-border-color);
 background-color: transparent;
-max-width:149px;
-min-height:25px;
+width:149px;
 border-radius: 50px;
 border: 2px solid var(--border-color);
 padding: .5rem 2.1rem;
-scrollbar-width: 0; 
-scrollbar-color:transparent transparent; 
 }
-/* Webkit browsers */
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color:transparent;
-   
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: transparent;
-    
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color:transparent;
-  }
+
   
  
 @media (min-width: 768px) and (max-width:992px) {
@@ -82,5 +63,9 @@ scrollbar-color:transparent transparent;
     line-height: 7rem;
     text-align: center;
     }
+    .featureCard h3{
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      }
     
 }
