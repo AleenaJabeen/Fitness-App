@@ -76,21 +76,21 @@ color: var(--input-border-color);
 
 }
 .signupBtn{
-  width: 70%;
+ width: 65%;
 background-color: var(--input-border-color);
 height: 65px;
 font-size: 25px;
 font-weight: 700;
 color: var(--background-color);
 border-radius: 50px;
-padding-left: 1.5rem;
 text-decoration: none;
 display: flex;
-justify-content: space-evenly;
+justify-content: center;
 align-items: center;
+gap: 1.95rem;
 }
 .signupBtn img{
-padding-left: 20px;
+  width: .75rem;
 }
 .signup .socialIcons{
 display: flex;
