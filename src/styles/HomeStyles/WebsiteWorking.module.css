@@ -42,6 +42,18 @@ align-items: center;
 flex-direction: column;
 gap: .5rem;
 color:  rgba(85, 85, 71, 1);
+position: relative;
+
+}
+.workingCard  .box{
+    position: absolute;
+    top: 14px;
+    left: 0;
+    border-top-left-radius: 14px;
+    background-color: var(--border-color);
+    width: 48.31px;
+height: 22px;
+
 
 }
 .workingCard img{

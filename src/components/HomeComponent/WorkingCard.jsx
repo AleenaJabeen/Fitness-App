@@ -10,6 +10,7 @@ function WorkingCard(props) {
         <h3>
 {props.title}
         </h3>
+        <div className={styles.box}></div>
         <p>{props.description}</p>
       </div>
     </>
