@@ -24,7 +24,7 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: var(--input-border-color);
-padding: 1rem 0rem 0rem 1rem;
+
 }
 .testimonials{
     margin-top:-10rem;
@@ -88,7 +88,7 @@ text-align: left;
 font-size: 6rem;
 line-height: 8rem;
 text-align: left;
-padding-top: 0;
+padding: 1rem 0rem 0rem 1rem;
 }
 .testimonials{
     display: flex;
