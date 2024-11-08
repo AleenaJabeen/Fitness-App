@@ -34,7 +34,7 @@ padding-bottom: 5rem;
 .workingCard{
     max-width: 380px;
     height: 359px;
-border-radius: 25px;
+    border-radius: 35px;
 background-color: var(--input-border-color);
 display: flex;
 justify-content: flex-start;
@@ -45,6 +45,8 @@ color:  rgba(85, 85, 71, 1);
 
 }
 .workingCard img{
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
     width: 100%;
     min-height: 214px;
     object-fit: cover;
