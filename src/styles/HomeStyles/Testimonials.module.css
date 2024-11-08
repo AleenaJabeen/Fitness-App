@@ -48,7 +48,7 @@ border-radius: 40px;
     flex-direction: column;
     gap: 2rem;
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .midImg{
     max-width:276px;
