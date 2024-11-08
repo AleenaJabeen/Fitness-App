@@ -29,9 +29,8 @@ text-align: center;
     flex-direction: column;
     gap: 2rem;
     background: var(--linear-background-color);
-    border-image-source: var(--linear-border-color);
     border-radius: 30px;
-    border: 3px solid;
+    border: 3px solid var(--linear-text-color) ;
 }
 .featureCard h3{
 font-size: 1rem;
@@ -55,7 +54,7 @@ padding: .5rem 2.1rem;
 
   
  
-@media (min-width: 768px) and (max-width:992px) {
+@media (min-width: 768px) {
     .keyFeatures h2{
         font-family: "Teko",sans-serif;
     font-size: 5rem;
