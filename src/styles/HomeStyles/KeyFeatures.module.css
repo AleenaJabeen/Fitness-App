@@ -16,6 +16,7 @@ text-align: center;
     overflow-x: scroll;
     gap: 1rem;
 }
+/* feature card styling */
 .featureCard{
     width: 307px;
     padding: 1.5rem 1rem;
@@ -73,7 +74,6 @@ scrollbar-color:transparent transparent;
   }
   
  
-
 @media (min-width: 768px) and (max-width:992px) {
     .keyFeatures h2{
         font-family: "Teko",sans-serif;

@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import KeyFeatures from './KeyFeatures';
 import Purpose from './Purpose';
+import Testimonials from './Testimonials';
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
    <HeroSection/>
    {/* <KeyFeatures/> */}
   <Purpose/>
+  <Testimonials/>
     </>
   )
 }
