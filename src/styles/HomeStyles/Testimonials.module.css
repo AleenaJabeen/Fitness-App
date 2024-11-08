@@ -1,11 +1,11 @@
 
 .customerTestimonials{
 position: relative;
-max-width: 1440px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+overflow-x: hidden;
 }
 
 .testimonialWrapper{
@@ -24,7 +24,7 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: var(--input-border-color);
-padding-top: 1rem;
+padding: 1rem 2rem 0rem 2rem;
 }
 .testimonials{
     margin-top: -10rem;
