@@ -81,16 +81,16 @@ background-color: var(--input-border-color);
 height: 65px;
 font-size: 25px;
 font-weight: 700;
+padding-left: .25rem;
 color: var(--background-color);
 border-radius: 50px;
 text-decoration: none;
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center;
-gap: 1.95rem;
 }
 .signupBtn img{
-  width: .75rem;
+  padding-left: 1.25rem;
 }
 .signup .socialIcons{
 display: flex;
