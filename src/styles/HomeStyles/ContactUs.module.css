@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
 }
 .contactImg img{
     width: 90vw;
@@ -20,6 +20,9 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+}
+.contactInfo{
+    padding: 0;
 }
 .contactInfo form{
     width: 100%;
@@ -37,7 +40,7 @@ color: var(--linear-text-color);
 }
 .contactInfo h2{
     font-family: "Teko",sans-serif;
-font-size: 3.75rem;
+font-size: 3.5rem;
 font-weight: 700;
 line-height: 4.25rem;
 text-align: center;
@@ -100,8 +103,12 @@ line-height: 1.5rem;
   }
   @media (max-width:768px){
     .contactImg img{
-        height: 100vh;
+        height: 90vh;
         object-fit: fill;
+    }
+    .contactInfo h2{
+font-size: 2rem;
+line-height: 2.75rem;
     }
   }
 
