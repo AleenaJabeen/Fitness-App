@@ -2,8 +2,8 @@
   padding: 2.5rem 1rem;
   max-width: 1440px;
   width: 100vw;
-  position: fixed;
   z-index: 100;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
