@@ -26,15 +26,13 @@
 }
 .contactInfo form{
     width: 100%;
-    padding: 1rem;
-
 }
 .contactInfo h3{
     font-family: "Teko",sans-serif;
 font-size: 2.15rem;
 font-weight: 700;
 line-height: 3rem;
-text-align: center;
+text-align: left;
 color: var(--linear-text-color);
 
 }
@@ -43,7 +41,7 @@ color: var(--linear-text-color);
 font-size: 3.5rem;
 font-weight: 700;
 line-height: 4.25rem;
-text-align: center;
+text-align: left;
 
 color: var(--input-border-color);
 }
