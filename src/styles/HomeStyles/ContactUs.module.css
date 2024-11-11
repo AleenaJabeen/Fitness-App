@@ -49,7 +49,7 @@ color: var(--input-border-color);
 }
 .contactInfo input,textarea{
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: var(--input-border-color);
 }
 .contactInfo input{
