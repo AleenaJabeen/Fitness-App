@@ -2,6 +2,7 @@ import React from 'react';
 import ContactMessage from './ContactMessage';
 import ContactInformation from './ContactInformation';
 import ContactUs from '../HomeComponent/ContactUs';
+import Map from './Map';
 
 function Contact() {
   return (
@@ -9,6 +10,7 @@ function Contact() {
       <ContactMessage/>
       <ContactInformation/>
       <ContactUs/>
+      <Map/>
     </>
   )
 }
