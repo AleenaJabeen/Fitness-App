@@ -1,9 +1,9 @@
 .navbar {
   padding: 2.5rem 1rem;
   max-width: 1440px;
-  width: 100vw;
-  z-index: 100;
-  position: fixed;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,7 +58,6 @@
 
 /* Login icon styling */
 .navbar ul li img {
-  max-width: 89px;
   width: 27.2px;
   height: 27.2px;
 }
@@ -107,6 +106,7 @@
     background-color: transparent;
     backdrop-filter: blur(0);
     padding: 2.5rem 1rem;
+width: 100%;
   }
   .navbar ul {
     width: 100vw;
