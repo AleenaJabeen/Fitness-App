@@ -1,0 +1,116 @@
+/* Contact Message Styling */
+.contactMsg {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1440px;
+  padding: 7rem 1.5rem 3rem 1.5rem;
+  gap: 1rem;
+}
+.msgSide {
+  color: var(--input-border-color);
+}
+.msgSide h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+.msgSide p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.msgImage img {
+  width: 100%;
+  justify-self: flex-start;
+}
+
+/* Conatct Information styling */
+.contactInfo {
+  padding: 2rem 2rem 3rem;
+  background: linear-gradient(220.74deg, #800080 0.3%, #000000 99.15%);
+  color: var(--input-border-color);
+}
+.contactInfo h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+  text-align: center;
+}
+.contactInfo p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(201, 201, 201, 1);
+}
+.contactSource {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 1.5rem;
+  color: var(--input-border-color);
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contactIcons p,
+.contactIconsPhone p {
+  color: var(--input-border-color);
+  font-size: 1rem;
+}
+.contactIconsPhone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  /* Contact Message Styling */
+  .msgSide h2 {
+    font-size: 4.75rem;
+    line-height: 5.5rem;
+  }
+  /* Contact Information Styling */
+  .contactInfo h2{
+    font-size:3.25rem ;
+    line-height: 4rem;
+}
+}
+@media (min-width: 992px) {
+
+  /* Contact Message Styling */
+  .contactMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .msgSide {
+    padding-left: 7rem;
+  }
+  .msgSide h2 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  .msgSide p {
+    font-size: 1rem;
+  }
+  .msgImage img {
+    width: 50vw;
+  }
+      /* Contact Information Styling */
+.contactInfo h2{
+    font-size: 4.65rem;
+    line-height: 5.75rem;
+}
+}
