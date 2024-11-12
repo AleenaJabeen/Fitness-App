@@ -3,6 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import styles from '../../styles/ContactStyles/Contact.module.css';
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
@@ -42,8 +43,8 @@ function Map  () {
     }, []);
 
     return (
-        <div className="container-fluid" style={{ height: '100%' }}>
-            <div id="map" ref={mapRef} style={{ height: '400px', margin: '4% 2% 4% 2%' }}></div>
+        <div className={styles.mapContainer}>
+            <div className={styles.map} ref={mapRef}></div>
         </div>
     );
 };

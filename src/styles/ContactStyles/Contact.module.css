@@ -73,7 +73,14 @@
   align-items: center;
   flex-direction: column;
 }
-
+/* Map styling */
+.mapContainer{
+  height: 100%;
+}
+.map{
+  height: 400px;
+   margin: 4% 2% 4% 2%;
+}
 @media (min-width: 576px) and (max-width: 992px) {
   /* Contact Message Styling */
   .msgSide h2 {
