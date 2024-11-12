@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <section className={styles.aboutSection}>
-        <MainAbout/>
+        {/* <MainAbout/> */}
         <Mission/>
         <Vision/>
 
