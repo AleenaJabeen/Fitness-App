@@ -4,6 +4,7 @@
  font-family: "Ubuntu", sans-serif;
  box-sizing: border-box;
 }
+
 :root {
   --background-color: rgba(0, 0, 0, 1);
   --border-color: rgba(255, 255, 0, 1);
@@ -13,6 +14,8 @@
  --linear-background-color:linear-gradient(179.6deg, #800080 0.34%, #000000 99.66%);
  --linear-border-color: linear-gradient(319.83deg, #800080 0.16%, #800080 44.52%, #000000 99.84%);
  --linear-text-color: rgba(128, 0, 128, 1);
+ --about-background-color:linear-gradient(180deg, #800080 0%, #000000 36.4%, #800080 69.9%, #000000 100%);
+
 
 
  

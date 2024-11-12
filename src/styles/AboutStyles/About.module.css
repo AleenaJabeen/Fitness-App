@@ -1,0 +1,181 @@
+.aboutSection {
+  background: var(--about-background-color);
+  padding: 0 2rem;
+ padding-bottom: 5rem;
+}
+/* main about section styling */
+.mainAboutSection {
+    
+  background-size: cover;
+  height: 100vh;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+.mainAbout {
+    padding: 7rem 2rem 4rem 30rem;
+
+    width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.425) 0%, rgba(63, 63, 63, 0.85) 100%);
+  color: var(--input-border-color);
+  width: 100%;
+  border-radius: 50px;
+  padding: 1rem;
+}
+.mainAbout h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  text-align: center;
+}
+.mainAbout p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-align: left;
+}
+.mainAbout button{
+    margin-top: 1rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+max-width: 158px;
+max-height: 34px;
+padding: 1.5rem 2rem;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+align-self: flex-start;
+background-color: var(--border-color);
+border-radius:50px ;
+
+}
+/* Mission component styling */
+.missionSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  flex-direction: column-reverse;
+}
+/* Vision component styling */
+.visionSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  flex-direction: column-reverse;
+  padding: 1rem 0;
+}
+/* reuse styling */
+.sideImage img {
+  width: 80vw;
+  height: 60vh;
+  object-fit: fill;
+}
+.textSide {
+  color: var(--input-border-color);
+}
+.textSide h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  text-align: left;
+}
+.textSide p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .mainAbout h2 {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    text-align: left;
+  }
+  .mainAbout p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+  /* reuse styling */
+
+  .textSide h2 {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    text-align: center;
+  }
+  .textSide p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: justify;
+  }
+}
+@media (min-width: 992px) {
+  .mainAboutSection {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+.mainAbout{
+    padding: 7rem 2rem 4rem 30rem;
+}
+  .mainAbout h2 {
+    font-size: 6rem;
+    line-height: 7rem;
+    text-align: center;
+  }
+  .mainAbout p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: left;
+  }
+  /* Mission component styling */
+
+  .missionSection {
+    flex-direction: row-reverse;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+  /* Vision component styling */
+
+  .visionSection {
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2.5rem;
+  }
+  /* reuse styling */
+
+  .sideImage img {
+    width: 30vw;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .textSide h2 {
+    font-size: 6rem;
+    line-height: 7rem;
+    text-align: left;
+  }
+  .textSide p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: left;
+  }
+}

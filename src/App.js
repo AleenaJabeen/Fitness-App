@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/LoginComponent/Login";
 import Home from "./components/HomeComponent/Home";
 import "./index.css";
-import Layout from "./components/LayoutComponents/Layout";
+import Layout from "./components/LayoutComponents/Layout"; 
+import About from "./components/AboutComponent/About";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route element={<Layout />}>
           <Route index  element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Route>
         </Routes>
       </BrowserRouter>
