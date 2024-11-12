@@ -29,7 +29,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/home"
+              to="/"
               className={({ isActive }) =>
                 isActive ? `${styles.li} ${styles.active}` : styles.li
               }
