@@ -56,12 +56,12 @@
   padding: 2rem 0;
 }
 .contactIcons img{
-  max-width: 80px;
-  height: 80px;
+  max-width: 70px;
+  height: 70px;
 }
 .contactIconsPhone img{
-  max-width: 130px;
-  height: 130px;
+  max-width: 120px;
+  height: 120px;
 }
 .contactIcons {
   display: flex;
@@ -128,5 +128,17 @@
 .contactInfo h2{
     font-size: 4.65rem;
     line-height: 5.75rem;
+}
+/* Contact  */
+.contactIcons img{
+width: 100%;
+height: 100%;
+}
+.contactIconsPhone img{
+  width: 100%;
+  height: 100%;
+}
+.contactIconsPhone{
+  padding-bottom: 0;
 }
 }
