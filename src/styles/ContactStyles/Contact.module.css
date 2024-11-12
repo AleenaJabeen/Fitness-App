@@ -69,6 +69,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 1rem;
 }
 .contactIcons p,
 .contactIconsPhone p {
@@ -80,7 +81,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 2rem;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
 }
 /* Map styling */
 .mapContainer{
@@ -100,6 +102,10 @@
   .contactInfo h2{
     font-size:3.25rem ;
     line-height: 4rem;
+}
+.contactIconsPhone{
+  padding-bottom: 1rem;
+  gap: 0;
 }
 }
 @media (min-width: 992px) {
@@ -129,7 +135,6 @@
     font-size: 4.65rem;
     line-height: 5.75rem;
 }
-/* Contact  */
 .contactIcons img{
 width: 100%;
 height: 100%;
@@ -139,6 +144,7 @@ height: 100%;
   height: 100%;
 }
 .contactIconsPhone{
-  padding-bottom: 0;
+  padding-bottom: 1rem;
+  justify-self: center;
 }
 }
