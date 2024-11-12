@@ -6,7 +6,8 @@ function MainAbout() {
   return (
     <>
       <section className={styles.mainAboutSection} style={{backgroundImage:`url(${mainAbout})`}}>
-        <div className={styles.mainAbout}>
+        <div className={styles.aboutOverlay}>
+          <div className={styles.mainAbout}>
           <h2>About Us</h2>
           <p>
             At fitness training, we’re dedicated to helping everyone achieve
@@ -18,6 +19,7 @@ function MainAbout() {
             wellness journey!
           </p>
           <button>Get Started</button>
+        </div>
         </div>
       </section>
     </>

@@ -1,11 +1,10 @@
 .aboutSection {
   background: var(--about-background-color);
-  padding: 0 2rem;
+  padding: 7rem 2rem;
  padding-bottom: 5rem;
 }
 /* main about section styling */
 .mainAboutSection {
-    
   background-size: cover;
   height: 100vh;
   border-radius: 50px;
@@ -15,9 +14,7 @@
   padding: 1rem;
   position: relative;
 }
-.mainAbout {
-    padding: 7rem 2rem 4rem 30rem;
-
+.aboutOverlay {
     width: 100%;
   height:100%;
   position: absolute;
@@ -27,8 +24,19 @@
   color: var(--input-border-color);
   width: 100%;
   border-radius: 50px;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.mainAbout{
+max-width: 100%;
+padding:1.25rem 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
 .mainAbout h2 {
   font-family: "Teko", sans-serif;
   font-size: 2.5rem;
@@ -40,7 +48,7 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.25rem;
-  text-align: left;
+  text-align: justify;
 }
 .mainAbout button{
     margin-top: 1rem;
@@ -55,10 +63,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-align-self: flex-start;
 background-color: var(--border-color);
-border-radius:50px ;
-
+border-radius:50px;
+justify-self: center;
 }
 /* Mission component styling */
 .missionSection {
@@ -132,9 +139,16 @@ border-radius:50px ;
     align-items: center;
     padding: 2rem;
   }
-  
-.mainAbout{
-    padding: 7rem 2rem 4rem 30rem;
+  .mainAbout{
+    max-width: 50%;
+  }
+  .mainAbout button{
+    align-self: flex-start;
+  }
+.aboutOverlay{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
   .mainAbout h2 {
     font-size: 6rem;
