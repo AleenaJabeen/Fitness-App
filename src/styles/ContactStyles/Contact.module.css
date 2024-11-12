@@ -55,6 +55,14 @@
   flex-wrap: wrap;
   padding: 2rem 0;
 }
+.contactIcons img{
+  max-width: 80px;
+  height: 80px;
+}
+.contactIconsPhone img{
+  max-width: 130px;
+  height: 130px;
+}
 .contactIcons {
   display: flex;
   justify-content: center;
