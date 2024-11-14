@@ -1,0 +1,98 @@
+.faqCategory {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 1rem;
+}
+
+.faqCategories h2 {
+    font-family: "Teko", sans-serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* FAQ card styling */
+.faqCard {
+    background: var(--about-background-color);
+    padding: 2rem 1rem;
+    max-width: 651px;
+    width: 80vw;
+    max-height: 364px;
+    height: max-content;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+    color: var(--input-border-color);
+}
+
+.faqCard h3 {
+    font-family: "Teko", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-align: left;
+}
+
+.faqCard p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.moreBtn {
+    align-self: flex-start; /* Align to end within faqCard */
+    margin-top: auto;  /* Push the button to the bottom */
+}
+
+.faqCard .moreBtn button {
+    background-color: transparent;
+    border: none;
+    color: var(--input-border-color);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .faqCategory {
+        padding: 4rem 3rem;
+        gap: 4rem;
+    }
+    
+    .faqCategories h2 {
+        font-size: 5.75rem;
+        line-height: 6.75rem;
+    }
+    
+    .faqCard {
+        max-width: 651px;
+        width: 38vw;
+        padding: 2rem;
+        height: 364px;
+    }
+    
+    .faqCard h3 {
+        font-size: 3.25rem;
+        line-height: 4.25rem;
+    }
+    
+    .faqCard p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    
+    .faqCard .moreBtn button {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.85rem;
+    }
+}

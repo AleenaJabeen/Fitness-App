@@ -1,0 +1,115 @@
+.generalFaqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    color: var(--input-border-color);
+    padding: 4rem 1rem;
+   gap: 2rem;
+   flex-direction: column;
+   
+}
+.rightFaqs img{
+    width: 80vw;
+    height: auto;
+    object-fit: cover;
+
+}
+.leftFaqs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+   padding: 1rem;
+}
+.leftFaqs h2{
+    font-family: "Teko";
+font-size: 3rem;
+font-weight: 700;
+line-height: 4rem;
+align-self: center;
+}
+.gfaqCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    max-width: 802px;
+    width: 100%;
+    padding: 1rem 1.5rem;
+height: 88.04px;
+background: rgba(66, 66, 66, 0.5);
+
+}
+.gfaqCard h3{
+font-size: 0.85rem;
+font-weight: 500;
+line-height: 1rem;
+text-align: left;
+}
+@media (min-width:768px) and (max-width:1024px){
+    .generalFaqs{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 4rem 2rem;
+        gap: 1rem;
+    
+       }
+       .leftFaqs h2{
+        font-size: 4rem;
+        line-height: 5rem;
+        align-self: flex-start;
+        height: auto;
+       }
+       .leftFaqs{
+        gap: 1.5rem;
+        justify-content: space-between;
+       }
+       .gfaqCard{
+        gap: 3rem;
+       }
+       .gfaqCard h3{
+        font-size: 1rem;
+        line-height: 1.5rem;
+       }
+       .rightFaqs img{
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+    
+    }
+
+}
+@media (min-width:1024px){
+   .generalFaqs{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4rem 2rem;
+
+   }
+   .leftFaqs{
+    gap: 3rem;
+    padding: 3rem;
+   }
+   .leftFaqs h2{
+    font-size: 5.5rem;
+    line-height: 6.5rem;
+    align-self: flex-start;
+   }
+   .rightFaqs img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+   } 
+   .gfaqCard {
+    width: 110%;
+    gap: 3rem;
+   }
+   .gfaqCard h3{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+   }
+}

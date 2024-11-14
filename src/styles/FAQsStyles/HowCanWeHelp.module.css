@@ -1,0 +1,82 @@
+.helpSection{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0 9rem 0;
+}
+.helpText{
+    width: 90%;
+}
+.img1,.img2{
+    display: none;
+}
+.helpText .helpInput{
+    width: 100%;
+}
+.helpText h2{
+    color: var(--input-border-color);
+    font-family: "Teko",sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 3.75rem;
+text-align: center;
+}
+.helpInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--input-border-color);
+    border-radius: 20px;
+    padding: 0 1.5rem;
+    border: 1px solid rgba(214, 214, 214, 1)
+}
+.helpInput input{
+    max-width: 801px;
+    width: 100%;
+height: 63px;
+border-radius: 20px;
+border: 1px solid var(--border-radius);
+background-color: transparent;
+}
+.helpInput input::placeholder{
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.75rem;
+
+}
+@media (min-width: 768px) and (max-width:1024px) {
+    .helpSection{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8rem 0 9rem 0;
+
+    }
+.helpText h2{
+font-size: 3.5rem;
+line-height: 4.5rem;
+}
+.img1,.img2{
+    display: block;
+}
+}
+@media (min-width:1024px){
+    .helpSection{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8rem 0 9rem 0;
+
+    }
+    .helpText{
+       width: 55vw;
+    }
+    .helpText h2{
+font-size: 6rem;
+line-height: 7rem;
+    }
+    .img1,.img2{
+        display: block;
+    }
+}

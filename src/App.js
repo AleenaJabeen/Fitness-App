@@ -7,6 +7,7 @@ import Layout from "./components/LayoutComponents/Layout";
 import About from "./components/AboutComponent/About";
 import Contact from './components/ContactComponent/Contact';
 import Blogs from "./components/BlogsComponent/Blogs";
+import FAQs from "./components/FAQComponent/FAQs";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/faqs" element={<FAQs />} />
         </Route>
         </Routes>
       </BrowserRouter>
